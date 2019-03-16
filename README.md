@@ -2,4 +2,4 @@ Week 2 Assignment for the Developing Data Products course: https://www.coursera.
 
 Using Leaflet to display my top five favourite wine farms.
 
-To see the report in HTML, [click here](http://htmlpreview.github.io/?https://github.com/nsunassee/RMDLeafletAssignment/blob/master/MyTown.html)
+To see the report in HTML, [click here](https://nsunassee.github.io/RMDLeafletAssignment/MyTown.html)
