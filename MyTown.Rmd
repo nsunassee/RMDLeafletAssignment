@@ -1,0 +1,25 @@
+---
+title: "My Favourite 5 Wine Farms"
+author: "Nakkiran Sunassee"
+date: "16 March 2019"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+### Map of Stellenbosch
+
+```{r, echo=FALSE}
+library(leaflet)
+date()
+my_map <- leaflet() %>% 
+  addTiles() %>%
+  addMarkers(lat=-33.928615, lng=18.9461117, popup="<a href=http://www.oldenburgvineyards.com/>Oldenburg Vineyards</a>") %>%
+  addMarkers(lat=-33.837340, lng=18.953271, popup="<a href=https://www.vnl.co.za/>Vrede en Lust</a>") %>%
+  addMarkers(lat=-33.855168, lng=18.860123, popup="<a href=https://www.kanonkop.co.za/>Kanonkop</a>") %>%
+  addMarkers(lat=-34.398267, lng=19.623814, popup="<a href=http://www.rakawine.co.za/>Raka Wines</a>") %>%
+  addMarkers(lat=-34.632635, lng=19.826887, popup="<a href=https://blackoystercatcher.co.za/>Black Oystercatcher</a>")
+my_map
+```
